@@ -21,22 +21,6 @@ npm run build
 npm run preview
 ```
 
-## Deploy free on Vercel
-
-1. Push this folder to a GitHub repo.
-2. Go to https://vercel.com → **Add New → Project** → import the repo.
-3. Framework preset: **Vite**. Build command `npm run build`, output `dist` (auto-detected).
-4. Click **Deploy**. Done — it's live on a `*.vercel.app` URL.
-
-## Deploy free on Netlify
-
-1. Push to GitHub.
-2. Go to https://app.netlify.com → **Add new site → Import an existing project**.
-3. Pick the repo. Build command `npm run build`, publish directory `dist`.
-4. Click **Deploy site**.
-
-Both hosts serve the PWA service worker automatically — the app works offline after first load.
-
 ## What's inside
 
 - **OrbitSky** — canvas particle band (blue/ember dots, ~2600 desktop / ~1200 mobile, respects reduced motion)
