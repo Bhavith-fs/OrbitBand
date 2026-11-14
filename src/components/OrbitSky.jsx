@@ -16,7 +16,7 @@ export default function OrbitSky({ dimmed = false, slowed = false }) {
     const ctx = canvas.getContext('2d');
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const isMobile = window.matchMedia('(max-width: 720px)').matches;
-    const COUNT = reduced ? 300 : isMobile ? 1200 : 2600;
+    const COUNT = reduced ? 300 : isMobile ? 1600 : 3200;
 
     let w, h, cx, cy, particles = [];
     let raf;
