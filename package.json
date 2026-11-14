@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "postinstall": "node scripts/patch-rollup.js"
+    "postinstall": "node scripts/patch-rollup.cjs"
   },
   "dependencies": {
     "@rollup/wasm-node": "^4.68.3",
