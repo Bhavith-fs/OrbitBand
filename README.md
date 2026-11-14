@@ -42,12 +42,3 @@ npm run preview
 8. **(1:45)** Toggle **Night** mode and **Contrast**. Open **About** — NASA HRP five hazards + NASA-STD-3001 citations.
 9. **(2:00)** Close: "Simulated band, real logic. Every screen reads the same data through the same rules — that's what makes it trustworthy at 20 minutes from Earth."
 
-## Screenshots
-
-```
-screenshots/
-  hero.png
-  body-figure.png
-  emergency-cpr.png
-  trends.png
-```
